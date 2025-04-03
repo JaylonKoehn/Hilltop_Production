@@ -1,3 +1,5 @@
+// Trigger redeploy - Hilltop Control Test
+
 import { useEffect, useState } from 'react'
 import { supabase } from '../lib/supabaseClient'
 
