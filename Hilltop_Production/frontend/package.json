@@ -1,15 +1,18 @@
 {
-  "name": "hilltop-production",
+  "name": "hilltop-production-frontend",
   "version": "1.0.0",
-  "private": true,
+  "description": "Frontend for Hilltop Production",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "next": "13.4.7",
+    "@supabase/supabase-js": "^2.39.5",
+    "next": "13.4.10",
     "react": "18.2.0",
     "react-dom": "18.2.0"
-  }
+  },
+  "devDependencies": {},
+  "license": "MIT"
 }
